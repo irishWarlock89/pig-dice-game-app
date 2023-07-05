@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(255, 117, 117);
+  color: black
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.square {
+  height: 400px;
+  width: 400px;
+  background-color: cyan;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: black 2px solid;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0)
+}
+
+.button:active{
+  scale: 0.9;
+}
